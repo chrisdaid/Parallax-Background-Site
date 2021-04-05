@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:#000;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+  height: 3350px;
+}
+
+#heading {
+  font-size: 72px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.parallax {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: 0% 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.canyon {
+  background-image: url("images/canyoncomp.jpg");
+  min-height:1080px;
+}
+
+.desert {
+  background-image: url("images/desertcomp.jpg");
+}
+
+.mountain {
+  background-image: url("images/mountaincomp.jpg");
+}
+
+.stars {
+  background-image: url("images/starscomp.jpg");
+}
+
+.textbox {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  padding: 5px;
+  margin: 10px 40px;
+  height: 150px;
+}
+
+.textbox-title {
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.textbox-content {
+  text-align: justify;
+}
+
+#footer {
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+  color: #A88B7B;
+}
+
+#name {
+  text-decoration: none;
+  color: #A88B7B;
+  transition: color 0.2s;
+}
+
+#name:hover {
+  color: #fff;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+
+/* Add Media Query for Devices < 1400x wide to make text a dropdown 
+Fix Images Resolution - Too low at the moment.*/
